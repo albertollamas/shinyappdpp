@@ -20,6 +20,9 @@ fluidPage(
                      ),
                      mainPanel(
                          "Highway mileage", br(), br(),
+                         h3
+                         ("Please click on the link to acces the repository
+                            that contains the ui.R and server.R files"),
                          h2(uiOutput("repo")),
                          br(), 
                          p("On this tab The app fits a linear model (highway 

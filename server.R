@@ -47,7 +47,7 @@ function(input, output, session) {
         summary(model_hwy())$coefficients
     })
     
-    url <- a("Google Homepage", href="https://www.google.com/")
+    url <- a("My repository", href="https://github.com/albertollamas/shinyappdpp/tree/master")
     output$repo <- renderUI({
         tagList("URL link:", url)
     }) 
